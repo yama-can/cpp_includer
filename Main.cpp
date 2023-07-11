@@ -101,7 +101,6 @@ string slove(string currentFile, size_t loop = 0)
 
 int main(int args, char **argv)
 {
-	test();
 	if (args < 3)
 	{
 		cout << "ファイルを入力してください。";
