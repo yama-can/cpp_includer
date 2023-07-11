@@ -4,7 +4,8 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${vcpkgRoot}/x64-windows/include"
+                "${vcpkgRoot}/x64-windows/include",
+                "${workspaceFolder}/include"
             ],
             "defines": [
                 "_DEBUG",
@@ -14,7 +15,8 @@
             "windowsSdkVersion": "10.0.22000.0",
             "compilerPath": "C:/msys64/usr/bin/g++.exe",
             "cStandard": "c17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "intelliSenseMode": "windows-gcc-x64",
+            "cppStandard": "c++17"
         }
     ],
     "version": 4
